@@ -119,7 +119,7 @@ func CommandTidy(log logger.Logger) *cobra.Command {
 			for path := range configMap {
 				log.LogInfo(nil, "	%s", path)
 			}
-			log.LogInfo(nil, "\r\nsucceeded, you are ready to go :)")
+			log.LogInfo(nil, "\r\nOK")
 		},
 	}
 	flags := cmd.PersistentFlags()
