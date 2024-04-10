@@ -22,8 +22,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/storyicon/powerproto/pkg/consts"
-	"github.com/storyicon/powerproto/pkg/util"
+	"github.com/aloknikhil/powerproto/pkg/consts"
+	"github.com/aloknikhil/powerproto/pkg/util"
 )
 
 // Config defines the config model

@@ -61,12 +61,12 @@ PowerProto主要用于解决下面三个问题：
 直接执行下面的命令即可进行安装：
 
 ```
-go install github.com/storyicon/powerproto/cmd/powerproto@latest
+go install github.com/aloknikhil/powerproto/cmd/powerproto@latest
 ```
 
 ### 二、开箱即用版本
 
-可以通过 [`Github Release Page`](https://github.com/storyicon/powerproto/releases) 下载开箱即用版本。
+可以通过 [`Github Release Page`](https://github.com/aloknikhil/powerproto/releases) 下载开箱即用版本。
 
 ## 命令介绍
 
@@ -223,7 +223,7 @@ $POWERPROTO_HOME/protoc/3.17.3/protoc --go_out=. \
 /mnt/data/hello/apis/hello.proto
 ```
 
-更多的例子可以参考 [示例](https://github.com/storyicon/powerproto/tree/master/examples).
+更多的例子可以参考 [示例](https://github.com/aloknikhil/powerproto/tree/master/examples).
 
 
 ## 配置文件

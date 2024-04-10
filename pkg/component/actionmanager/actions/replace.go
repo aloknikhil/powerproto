@@ -23,14 +23,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/storyicon/powerproto/pkg/consts"
-	"github.com/storyicon/powerproto/pkg/util"
-	"github.com/storyicon/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/consts"
+	"github.com/aloknikhil/powerproto/pkg/util"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
 )
 
 // ActionReplace is used to replace text in bulk
 // Its args prototype is:
-// 		args: (pattern string, from string, to string)
+//
+//	args: (pattern string, from string, to string)
+//
 // pattern is used to match files
 func ActionReplace(ctx context.Context, log logger.Logger, args []string, options *CommonOptions) error {
 	if len(args) != 3 {

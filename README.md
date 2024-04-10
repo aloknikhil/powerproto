@@ -64,12 +64,12 @@ PowerProto is used to solve the following three main problems:
 Installation can be performed by executing the following command directly:
 
 ```
-go install github.com/storyicon/powerproto/cmd/powerproto@latest
+go install github.com/aloknikhil/powerproto/cmd/powerproto@latest
 ```
 
 ### II. out-of-the-box version
 
-You can download the out-of-the-box version via the [`Github Release Page`](https://github.com/storyicon/powerproto/releases)
+You can download the out-of-the-box version via the [`Github Release Page`](https://github.com/aloknikhil/powerproto/releases)
 
 
 ## Command Introduction
@@ -235,7 +235,7 @@ $POWERPROTO_HOME/protoc/3.17.3/protoc --go_out=. \
 /mnt/data/hello/apis/hello.proto
 ```
 
-More examples can be found in [examples](https://github.com/storyicon/powerproto/tree/master/examples).
+More examples can be found in [examples](https://github.com/aloknikhil/powerproto/tree/master/examples).
 
 
 ## Config File

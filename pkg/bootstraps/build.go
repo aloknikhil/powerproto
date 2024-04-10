@@ -20,16 +20,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/storyicon/powerproto/pkg/component/actionmanager"
-	"github.com/storyicon/powerproto/pkg/component/compilermanager"
-	"github.com/storyicon/powerproto/pkg/component/configmanager"
-	"github.com/storyicon/powerproto/pkg/component/pluginmanager"
-	"github.com/storyicon/powerproto/pkg/configs"
-	"github.com/storyicon/powerproto/pkg/consts"
-	"github.com/storyicon/powerproto/pkg/util"
-	"github.com/storyicon/powerproto/pkg/util/concurrent"
-	"github.com/storyicon/powerproto/pkg/util/logger"
-	"github.com/storyicon/powerproto/pkg/util/progressbar"
+	"github.com/aloknikhil/powerproto/pkg/component/actionmanager"
+	"github.com/aloknikhil/powerproto/pkg/component/compilermanager"
+	"github.com/aloknikhil/powerproto/pkg/component/configmanager"
+	"github.com/aloknikhil/powerproto/pkg/component/pluginmanager"
+	"github.com/aloknikhil/powerproto/pkg/configs"
+	"github.com/aloknikhil/powerproto/pkg/consts"
+	"github.com/aloknikhil/powerproto/pkg/util"
+	"github.com/aloknikhil/powerproto/pkg/util/concurrent"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/util/progressbar"
 )
 
 // StepLookUpConfigs is used to lookup config files according to target proto files

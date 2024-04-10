@@ -21,8 +21,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/storyicon/powerproto/pkg/component/pluginmanager"
-	"github.com/storyicon/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/component/pluginmanager"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
 )
 
 var _ = Describe("PluginManager", func() {

@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/storyicon/powerproto/pkg/consts"
-	"github.com/storyicon/powerproto/pkg/util"
-	"github.com/storyicon/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/consts"
+	"github.com/aloknikhil/powerproto/pkg/util"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
 )
 
 // PluginManager is used to manage plugins

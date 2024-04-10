@@ -23,11 +23,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/aloknikhil/powerproto/pkg/util"
 	"github.com/mholt/archiver"
-	"github.com/storyicon/powerproto/pkg/util"
 
-	"github.com/storyicon/powerproto/pkg/util/command"
-	"github.com/storyicon/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/util/command"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
 )
 
 // ErrGitList defines the git list error

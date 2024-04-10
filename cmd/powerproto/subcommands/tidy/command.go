@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/storyicon/powerproto/pkg/bootstraps"
-	"github.com/storyicon/powerproto/pkg/component/pluginmanager"
-	"github.com/storyicon/powerproto/pkg/configs"
-	"github.com/storyicon/powerproto/pkg/consts"
-	"github.com/storyicon/powerproto/pkg/util"
-	"github.com/storyicon/powerproto/pkg/util/logger"
-	"github.com/storyicon/powerproto/pkg/util/progressbar"
+	"github.com/aloknikhil/powerproto/pkg/bootstraps"
+	"github.com/aloknikhil/powerproto/pkg/component/pluginmanager"
+	"github.com/aloknikhil/powerproto/pkg/configs"
+	"github.com/aloknikhil/powerproto/pkg/consts"
+	"github.com/aloknikhil/powerproto/pkg/util"
+	"github.com/aloknikhil/powerproto/pkg/util/logger"
+	"github.com/aloknikhil/powerproto/pkg/util/progressbar"
 )
 
 func tidy(ctx context.Context,

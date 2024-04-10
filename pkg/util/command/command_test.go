@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/storyicon/powerproto/pkg/util/command"
+	"github.com/aloknikhil/powerproto/pkg/util/command"
 )
 
 var _ = Describe("Command", func() {
